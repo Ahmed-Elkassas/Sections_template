@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- libraries -->
+
+        <!-- Swiper Effect -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&#038;display=swap" rel="stylesheet" /> 
+        <link href="css/all.min.css" rel="stylesheet" />
+        
+        <link href="css/normalize.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+        <title>Without FrameWork</title>
+    </head>
+    <body>
+
+        <!-- Start Setting Box -->
+        
+        <div class="setting-box">
+            <span class='setting-icon'>
+                <i class="fas fa-cog fa-spin"></i>
+            </span>
+            <div class='setting-container'>
+                <div class='option'>
+                    <h4 class='h4'>colors</h4>
+                    <ul class='colors-list'>
+                        <li class="active" data-color="#4caf50"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#F06292"></li>
+                        <li data-color="#ffc107"></li>
+                        <li data-color="#03a9f4"></li>
+                    </ul>
+                </div>
+                <div class="option">
+                    <h4>Random Background</h4>
+                    <div class="background-random">
+                        <span class="yes active" data-background="yes">yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option">
+                    <h4>Show Bullets</h4>
+                    <div class="bullets-option">
+                        <span class="yes active" data-display="show">yes</span>
+                        <span class="no" data-display="hide">No</span>
+                    </div>
+                </div>
+                <button class="rest-options">Reset</button>
+            </div>
+        </div>
+        
+        <!-- End Setting Box -->
+        <!-- Start Nav Bullets -->
+
+        <div class="nav-bullets">
+            <div class="bullet" data-section='.about-us'>
+                <div class="tool-tip">About us</div>
+            </div>
+            <div class="bullet" data-section='.gallary'>
+                <div class="tool-tip">Our gallary</div>
+            </div>
+            <div class="bullet" data-section='.features'>
+                <div class="tool-tip">Features</div>
+            </div>
+            <div class="bullet" data-section='.testimonial'>
+                <div class="tool-tip">Testimonial</div>
+            </div>
+        </div>
+
+        <!-- Start Nav Bullets -->
+        <!-- Start landing page -->
+        
+        <div class="landing-page">
+            <div class="overlay"></div>
+                <div class="container">
+                <div class="header">
+                    <div class="logo">Brand</div>
+                    <div class="links-container">
+                        <ul class='links'>
+                            <li><a href=# class='active'>Home</a></li>
+                            <li><a href=# data-section='.about-us'>About us</a></li>
+                            <li><a href=# data-section='.gallary'>Gallary</a></li>
+                            <li><a href=# data-section='.features'>Features</a></li>
+                            <li><a href=# data-section='.testimonial'>Testimonal</a></li>
+                            <li><a href=# data-section='.contact-us'>Contact us</a></li>
+                        </ul>
+                        <button class='toggle-menu'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="intro-text">
+                    <h2><span data-text="Creativity">Creativity</span> is here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eius, architecto nemo?</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- End landing page -->
+        <!-- Start About us -->
+        
+        <section class='about-us'>
+            <div class="container">
+                <div class='about-us-content'>
+                    <div class="info-box">
+                        <h2>About us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consecv orrupti consectetur, enim praesentium! Culpa corrupti vero porro repellat orrupti consectetur, enim praesentium! Culpa corrupti vero  nulla.
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa fugit minima assumenda suscipit, maxime facere, hic exercitationem accusamus illo esse tempora! Iste pariatur atque numquam officiis, quos corrupti sequi.
+                        </p>
+                    </div>
+                    <div class="img-box">
+                        <img src="images/about-us.jpg" alt="about us">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End About us -->
+        <!-- Start Gallary -->
+
+        <section class="gallary">
+            <div class="container">
+                <h2>Our Gallary</h2>
+                <div class="images-box">
+                    <img src="images/g1.jpg" alt="image one">
+                    <img src="images/g2.jpg" alt="image two">
+                    <img src="images/g3.jpg" alt="image three">
+                    <img src="images/g4.jpg" alt="image four">
+                    <img src="images/g7.jpg" alt="image five">
+                    <img src="images/g6.jpg" alt="image six">
+                    <img src="images/g7.jpg" alt="image seven">
+                    <img src="images/g8.jpg" alt="">
+                    <img src="images/g9.jpg" alt="">
+                    <img src="images/g10.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- End Gallary -->
+        <!-- Start Timeline -->
+        
+
+        <section class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2020</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Timeline left</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi culpa accusamus repudiandae. Quia consequuntur deleniti possimus quod repellendus,
+                                architecto laudantium iusto quibusdam laborum? Eos itaque error quia id ipsam cum.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="right">
+                        <div class='content'>
+                            <h3>Timeline right</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi culpa accusamus repudiandae. Quia consequuntur deleniti possimus quod repellendus,
+                                architecto laudantium iusto quibusdam laborum? Eos itaque error quia id ipsam cum.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2021</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Timeline left</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi culpa accusamus repudiandae. Quia consequuntur deleniti possimus quod repellendus,
+                                architecto laudantium iusto quibusdam laborum? Eos itaque error quia id ipsam cum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Timeline -->
+        <!-- Start Features -->
+
+        <div class="features">
+            <h2>Our Features</h2>
+            <div class="container">
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-1.jpg" alt="feature-one">
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-2.jpg" alt="feature-two">
+                    </div>
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-3.jpg" alt="feature-three">
+                    </div>
+                    <h3>Seo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-2.jpg" alt="feature-four">
+                    </div>
+                    <h3>Hosting</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-4.jpg" alt="feature-five">
+                    </div>
+                    <h3>Database</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class='feat-box'>
+                    <div>
+                        <img src="images/feat-1.jpg" alt="feature-six">
+                    </div>
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus nostrum iure ex earum dolor?</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <!-- End Features -->
+        <!-- Start testimonial -->
+        
+        <section class="testimonial">
+            <div class="container">
+                <h2>Testimonial</h2>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <img class='quot' src="images/right-quote (1).png" >
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae impedit non assumenda sint cum tenetur architecto expedita debitis,
+                                        ducimus veritatis obcaecati voluptate iure necessitatibus molestiae? Inventore repudiandae dolorum corporis pariatur!
+                                    </p>
+                                </div>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="images/face (1).jpg" alt="alt="Mohamed" title="clint one">
+                                    </div>
+                                    <h4>Someone famous<br><span>Creative Designer</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <img class='quot' src="images/right-quote (1).png" >
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae impedit non assumenda sint cum tenetur architecto expedita debitis,
+                                        ducimus veritatis obcaecati voluptate iure necessitatibus molestiae? Inventore repudiandae dolorum corporis pariatur!
+                                    </p>
+                                </div>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="images/face (2).jpg" alt="alt="Mohamed" title="clint one">
+                                    </div>
+                                        <h4>Someone famous<br><span>Creative Designer</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <img class='quot' src="images/right-quote (1).png" >
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae impedit non assumenda sint cum tenetur architecto expedita debitis,
+                                        ducimus veritatis obcaecati voluptate iure necessitatibus molestiae? Inventore repudiandae dolorum corporis pariatur!
+                                    </p>
+                                </div>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="images/face (3).jpg" alt="alt="Mohamed" title="clint one">
+                                    </div>
+                                        <h4>Someone famous<br><span>Creative Designer</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial-box">
+                                <img class='quot' src="images/right-quote (1).png" >
+                                <div class="content">
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae impedit non assumenda sint cum tenetur architecto expedita debitis,
+                                        ducimus veritatis obcaecati voluptate iure necessitatibus molestiae? Inventore repudiandae dolorum corporis pariatur!
+                                    </p>
+                                </div>
+                                <div class="details">
+                                    <div class="img-box">
+                                        <img src="images/face (1).jpg" alt="alt="Mohamed" title="clint one">
+                                    </div>
+                                        <h4>Someone famous<br><span>Creative Designer</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start testimonial -->
+        <!-- Start Contact us -->
+        
+        <div class="contact-us">
+            <div class="container">
+                <h2>Contact us</h2>
+                <div class="form-options">
+                    <form action=''>
+                        <div class="left">
+                            <input type="text" placeholder="Your name" name='username'>
+                            <input type="text" placeholder="Your phone" name='phone'>
+                            <input type="text" placeholder="Your email" name='email'>
+                            <input type="text" placeholder="Subject" name='subject'>
+                        </div>
+                        <div class="right">
+                            <textarea name="message" placeholder="Your massage"></textarea>
+                            <input type="submit" value='send'>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Contact us -->
+        <!-- Start Footer -->
+        
+        <footer>
+            Created with Ahmed Elkassas
+        </footer>
+
+        <!-- Start Footer -->
+
+        <!-- Swiper Effect -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
